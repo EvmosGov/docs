@@ -1,6 +1,3 @@
-/**
- * @type {import('nextra-theme-docs').DocsThemeConfig}
- */
  export default {
   projectLink: 'https://github.com/EvmosGov/docs',
   docsRepositoryBase: 'https://github.com/EvmosGov/docs/blob/main',

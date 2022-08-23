@@ -12,7 +12,7 @@
       </span>
     </>
   ),
-  head: () => (
+  head: (
     <>
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
@@ -53,15 +53,14 @@
         sizes="96x96"
         href="/favicon-96x96.png"
       />
-    </>
-  ),
+    </>),
   search: true,
   prevLinks: true,
   nextLinks: true,
   darkMode: true,
   sidebarSubtitle: <>Hello</>,
   unstable_staticImage: true,
-  footer: false,
+  footer: true,
   unstable_faviconGlyph: '👋',
   feedbackLink: <>Give us feedback →</>,
   feedbackLabels: 'feedback',

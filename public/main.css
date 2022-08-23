@@ -1,0 +1,4 @@
+.dark .nextra-container .nextra-sidebar ul li.active>a, .dark .nextra-container .nextra-sidebar ul li.active>a:hover{
+    background-color: #2d2925 !important;
+    color: #faf1e4 !important;
+}

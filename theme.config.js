@@ -61,7 +61,9 @@
   sidebarSubtitle: <>Hello</>,
   unstable_staticImage: true,
   footer: true,
-  unstable_faviconGlyph: '👋',
+  footerEditLink: 'View Changes on Github →',
+  footerText: <>{new Date().getFullYear()} © Evmos DAO.</>,
+  unstable_faviconGlyph: '🪐',
   feedbackLink: <>Give us feedback →</>,
   feedbackLabels: 'feedback',
   tocExtraContent: () => {
@@ -71,4 +73,5 @@
     defaultTheme: "dark",
     storageKey: "theme"
   },
+  unstable_stork: true
 }

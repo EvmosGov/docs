@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next --port 3009",
-    "start": "next start --port 3009",
+    "dev": "next",
+    "start": "next start",
     "build": "next build"
   },
   "author": "Shu Ding",

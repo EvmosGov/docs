@@ -2,3 +2,105 @@
     background-color: #2d2925 !important;
     color: #faf1e4 !important;
 }
+
+.tm {
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  margin: 0 0.5rem;
+  color: #ee5035;
+  vertical-align: top;
+}
+
+.fancy-container {
+  position: relative;
+  width: 100%;
+  max-width: 80rem;
+  height: 40rem;
+  margin: 5rem auto;
+  background-color: #333;
+  background-image: url("https://i.imgur.com/eiVYtRC.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 10px 80px rgba(0, 0, 0, 0.8);
+}
+.fancy-container:after {
+  content: "";
+  border: 1px solid rgba(238, 80, 53, 0.6);
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.fancy-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+.fancy-title:before {
+  content: "";
+  width: 0.25rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: calc(100% + 2rem);
+  left: 0;
+  height: 40rem;
+}
+
+.text-line {
+  font: 800 4.5rem/0.95 "Inter", sans-serif;
+  text-indent: 0em;
+  display: table;
+  position: relative;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.text-line:last-child {
+  margin-bottom: 0;
+}
+.text-line:last-child:after {
+  content: "";
+  height: 0.25rem;
+  background-color: #fff;
+  position: absolute;
+  left: calc(100% + 2rem);
+  bottom: 0;
+  width: 80rem;
+}
+
+.fancy-borders {
+  overflow: hidden;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  right: 2rem;
+  bottom: 2rem;
+}
+.fancy-borders:before {
+  content: "";
+  height: 0.25rem;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.fancy-borders:after {
+  content: "";
+  width: 0.25rem;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.light-weight{
+    font-weight: 400 !important;
+}

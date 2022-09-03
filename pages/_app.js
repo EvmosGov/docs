@@ -1,4 +1,4 @@
-import 'nextra-theme-docs/style.css'
+import '../public/style.css'
 import '../public/main.css'
 import { useState, useEffect } from 'react'
 

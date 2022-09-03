@@ -2,7 +2,13 @@
     background-color: #2d2925 !important;
     color: #faf1e4 !important;
 }
-
+.dark .sidebar li.active>a{
+    background-color: #574f47 !important;
+}
+.eh{
+    position: absolute;
+    top: -1000px;
+}
 .tm {
   font-size: 1.1rem;
   line-height: 1.75rem;

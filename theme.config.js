@@ -76,7 +76,7 @@
   unstable_staticImage: true,
   footer: true,
   footerEditLink: 'View Changes on Github →',
-  footerText: <>{new Date().getFullYear()} © Evmos DAO.</>,
+  footerText: <><span className="text-gray-200">MIT | Evmos DAO</span></>,
   unstable_faviconGlyph: '🪐',
   feedbackLink: <>Give us feedback →</>,
   feedbackLabels: 'feedback',

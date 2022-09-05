@@ -1,5 +1,5 @@
 import '../public/style.css'
-import { useState, useEffect } from 'react'
+import {useState, useEffect} from 'react';
 import ReactDOM from 'react-dom'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -23,18 +23,20 @@ const darkTheme = createTheme({
 
 export default function Nextra({ Component, pageProps }) {
   const [theme, setTheme] = useState('dark')
+  if (typeof window !== 'undefined') {
+    localStorage.setItem('theme', 'dark')
+    document.documentElement.classList.add('dark')
+  }
   useEffect(() => {
     localStorage.setItem('theme', 'dark')
   }, [theme])
 
   const getLayout = Component.getLayout || (page => page)
   return getLayout(
-    <ColorModeContext.Provider value={theme}>
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
         <Component {...pageProps} 
         />
       </ThemeProvider>
-    </ColorModeContext.Provider>
 )
 }

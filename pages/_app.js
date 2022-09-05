@@ -1,9 +1,10 @@
 import '../public/style.css'
-import '../public/main.css'
 import { useState, useEffect } from 'react'
 import ReactDOM from 'react-dom'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
+import '../public/main.css'
+
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',

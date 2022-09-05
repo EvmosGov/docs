@@ -72,12 +72,12 @@ import Script from 'next/script'
   feedbackLabels: 'feedback',
   defaultTheme: "dark",
   forcedTheme: "dark",
-  storageKey: "themec",
+  storageKey: "theme",
   defaultMenuCollapsed: false,
   nextThemes: {
     defaultTheme: "dark",
     forcedTheme: "dark",
-    storageKey: "themec"
+    storageKey: "theme"
   },
   i18n: [
     { locale: 'en', text: 'English' },

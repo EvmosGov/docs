@@ -59,7 +59,7 @@ import Script from 'next/script'
     </>
     ),
   search: true,
-  unstable_stork: true,
+  unstable_stork: false,
   prevLinks: true,
   nextLinks: true,
   darkMode: true,

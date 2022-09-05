@@ -10,7 +10,5 @@ module.exports = withNextra({
     locales: ['en', 'ko'],
     defaultLocale: 'en',
   },
-  pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts'],
-  trailingSlash: true,
-
+  pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts']
 })

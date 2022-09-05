@@ -1,0 +1,35 @@
+h2.founders-armory {
+
+}
+h2.founders-armory .dao {
+  font-size: 3rem;
+  line-height: 3.2rem;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h2:nth-of-type(2){
+  color: #faf1e4;
+  background: transparent;
+  margin: 0 0 1rem;
+  padding: 2rem 1.5rem 2rem 5.25rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+  border: none;
+}
+h2:nth-of-type(2) strong {
+  font-size: 3rem;
+  line-height: 3.2rem;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h2:nth-of-type(2) span {
+  display: none;
+}

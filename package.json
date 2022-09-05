@@ -1,5 +1,5 @@
 {
-  "name": "nextra",
+  "name": "govevmos",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,13 @@
   "author": "Shu Ding",
   "license": "MIT",
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.3",
+    "@mui/x-data-grid": "^5.17.0",
+    "@mui/x-date-pickers": "^5.0.0",
     "jsonpath-plus": "^7.0.0",
+    "moment": "^2.29.4",
     "next": "^12.1.0",
     "nextra": "^1.1.0",
     "nextra-theme-docs": "^1.2.2",

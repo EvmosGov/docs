@@ -1,0 +1,53 @@
+.founderspage{
+    color: #faf1e4;
+    background: transparent;
+    font-size: inherit;
+    line-height: inherit;
+}
+.founderspage strong {
+    font-size: inherit;
+}
+@media (min-width:768px) {
+    .founderspage{
+        color: #faf1e4;
+        background: transparent;
+        margin: 0 0 0.25rem;
+        padding: 2rem 1.5rem 1rem 5.25rem;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        font-weight: 400;
+        position: relative;
+        text-align: center !important;
+        border: none;
+    }
+    .founderspage strong {
+        font-size: 3rem;
+        line-height: 3.2rem;
+        display: block;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+  .founderspage span.anchor-icon {
+        display: none;
+    }
+  .founderspage span.anchor-icon:hover {
+        display: none;
+    }
+}
+    
+
+    .cardContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lineContainer{
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        display: none;
+
+    }
+

@@ -1009,10 +1009,10 @@ a code {
 
 .sidebar li.active>a {
     --tw-bg-opacity: 1;
-    background-color: rgba(237, 242, 247, var(--tw-bg-opacity));
-    font-weight: 600;
+    background-color: rgba(45, 55, 72, var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgba(0, 0, 0, var(--tw-text-opacity))
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    font-weight:600;
 }
 
 .dark .sidebar li.active>a {

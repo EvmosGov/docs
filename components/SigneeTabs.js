@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 import ValTable from './ValTable'
 import CommunityTable  from './CommunityTable'
 import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
+import Skeleton from '@mui/material/Skeleton';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -71,7 +72,8 @@ export default function ColorTabs() {
         <CommunityTable />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <h3 sx={{letterSpacing: '1px', ms: 1}}>Governance Council and Contributors</h3>
+        <Typography component={'h3'}  sx={{letterSpacing: '1px', mb: '40px'}}>Governance Council and Contributors (WIP)</Typography>
+      <Skeleton variant="rectangular" width={'100%'} height={600} />
       </TabPanel>
       
     </Box>

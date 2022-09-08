@@ -1,5 +1,7 @@
 {
   "index": "Introduction",
-  "constitution": "Constitution",
-  "governance": "Evmos DAO Governance"
+  "constitution": "Evmos DAO Constitution",
+  "ratification": "Constitution Status",
+  "proposals": "The Proposal Lifecycle",
+  "last": " "
 }

@@ -63,6 +63,7 @@ import Script from 'next/script'
   prevLinks: true,
   nextLinks: true,
   darkMode: true,
+  floatTOC: false,
   unstable_staticImage: true,
   footer: true,
   footerEditLink: 'View Changes on Github →',

@@ -29,12 +29,12 @@
         letter-spacing: 2px;
     }
     
-  .dark .founderspage .anchor-icon {
-        display: none;
-    }
-  .founderspage span.anchor-icon:hover {
-        display: none;
-    }
+  /* .dark .founderspage .anchor-icon { */
+        /* display: none; */
+    /* } */
+  /* .founderspage span.anchor-icon:hover { */
+        /* display: none; */
+    /* } */
 }
     
 

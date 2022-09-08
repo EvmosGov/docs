@@ -1,0 +1,78 @@
+diff --git a/node_modules/nextra-theme-docs/LICENSE b/node_modules/nextra-theme-docs/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/README.md b/node_modules/nextra-theme-docs/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/bleed.js b/node_modules/nextra-theme-docs/bleed.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/callout.js b/node_modules/nextra-theme-docs/callout.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/arrow-right.js b/node_modules/nextra-theme-docs/dist/arrow-right.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/bleed.js b/node_modules/nextra-theme-docs/dist/bleed.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/callout.js b/node_modules/nextra-theme-docs/dist/callout.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/footer.js b/node_modules/nextra-theme-docs/dist/footer.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/github-icon.js b/node_modules/nextra-theme-docs/dist/github-icon.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/head.js b/node_modules/nextra-theme-docs/dist/head.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/locale-switch.js b/node_modules/nextra-theme-docs/dist/locale-switch.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/navbar.js b/node_modules/nextra-theme-docs/dist/navbar.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/nextra-theme-docs.js b/node_modules/nextra-theme-docs/dist/nextra-theme-docs.js
+old mode 100644
+new mode 100755
+index fbea45d..bdc2754
+--- a/node_modules/nextra-theme-docs/dist/nextra-theme-docs.js
++++ b/node_modules/nextra-theme-docs/dist/nextra-theme-docs.js
+@@ -281,7 +281,7 @@ function Head({
+   return /*#__PURE__*/React__default.createElement(NextHead, null, config.font ? /*#__PURE__*/React__default.createElement("link", {
+     rel: "stylesheet",
+     href: "https://rsms.me/inter/inter.css"
+-  }) : null, /*#__PURE__*/React__default.createElement("title", null, title, renderComponent(config.titleSuffix, {
++  }) : null, /*#__PURE__*/React__default.createElement("title", null, "Evmos DAO", renderComponent(config.titleSuffix, {
+     locale,
+     config,
+     title,
+diff --git a/node_modules/nextra-theme-docs/dist/search.js b/node_modules/nextra-theme-docs/dist/search.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/sidebar.js b/node_modules/nextra-theme-docs/dist/sidebar.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/stork-search.js b/node_modules/nextra-theme-docs/dist/stork-search.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/theme-switch.js b/node_modules/nextra-theme-docs/dist/theme-switch.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/toc.js b/node_modules/nextra-theme-docs/dist/toc.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/wasm-loader-b9b546ac.js b/node_modules/nextra-theme-docs/dist/wasm-loader-b9b546ac.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/wasm-loader.js b/node_modules/nextra-theme-docs/dist/wasm-loader.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/index.js b/node_modules/nextra-theme-docs/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/style.css b/node_modules/nextra-theme-docs/style.css
+old mode 100644
+new mode 100755

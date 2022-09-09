@@ -23,8 +23,13 @@ const darkTheme = createTheme({
 
 export default function Nextra({ Component, pageProps }) {
   const [theme, setTheme] = useState('dark')
+  if (typeof window !== 'undefined') {
+    localStorage.setItem('theme', 'dark')
+  }
   useEffect(() => {
     localStorage.setItem('theme', 'dark')
+    document.documentElement.classList.add('dark')
+
   }, [theme])
 
   const getLayout = Component.getLayout || (page => page)

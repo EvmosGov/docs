@@ -59,12 +59,13 @@ import Script from 'next/script'
     </>
     ),
   search: true,
-  unstable_stork: true,
+  unstable_stork: false,
   prevLinks: true,
   nextLinks: true,
   darkMode: true,
   unstable_staticImage: true,
   footer: true,
+  floatTOC: false,
   footerEditLink: 'View Changes on Github →',
   footerText: <><span className="text-gray-200">Maintained by Governance, Evmos DAO</span></>,
   unstable_faviconGlyph: '🪐',
@@ -72,12 +73,12 @@ import Script from 'next/script'
   feedbackLabels: 'feedback',
   defaultTheme: "dark",
   forcedTheme: "dark",
-  storageKey: "themec",
+  storageKey: "theme",
   defaultMenuCollapsed: false,
   nextThemes: {
     defaultTheme: "dark",
     forcedTheme: "dark",
-    storageKey: "themec"
+    storageKey: "theme"
   },
   i18n: [
     { locale: 'en', text: 'English' },

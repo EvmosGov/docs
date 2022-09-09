@@ -259,9 +259,7 @@ p.MuiTablePagination-displayedRows {
   background-image: radial-gradient(rgb(208, 62, 62) 12%, rgb(150, 34, 34) 16%, transparent 62%) !important;
 }
 
-h2:nth-of-type(2){
-  border:none;
-}
+
 @media (max-width: 425px ) {
   .MuiButtonBase-root {
     font-size: 0.7rem !important;
@@ -270,4 +268,13 @@ h2:nth-of-type(2){
 
 nav a[tabindex="0"]{
   display: none !important;
+}
+article.docs-container {
+  margin-top: 20px;
+}
+.sidebar a, .sidebar button{
+  font-size: 0.8rem;
+}
+a span.inline-block {
+  font-size: 0.7rem;
 }

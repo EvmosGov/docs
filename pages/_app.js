@@ -1,5 +1,5 @@
 import '../public/style.css'
-import { useState, useEffect } from 'react'
+import {useState, useEffect} from 'react';
 import ReactDOM from 'react-dom'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -34,10 +34,10 @@ export default function Nextra({ Component, pageProps }) {
 
   const getLayout = Component.getLayout || (page => page)
   return getLayout(
-    <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-      <Component {...pageProps} 
-      />
-    </ThemeProvider>
+      <ThemeProvider theme={darkTheme}>
+        <CssBaseline />
+        <Component {...pageProps} 
+        />
+      </ThemeProvider>
 )
 }

@@ -1034,8 +1034,8 @@ a code {
     border-radius: .25rem;
     padding: .5rem;
     text-align: left;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
     --tw-text-opacity: 1;
     color: rgba(113, 128, 150, var(--tw-text-opacity));
     text-decoration: none;

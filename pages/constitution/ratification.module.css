@@ -29,7 +29,7 @@
         letter-spacing: 2px;
     }
     
-  .founderspage span.anchor-icon {
+  .dark .founderspage .anchor-icon {
         display: none;
     }
   .founderspage span.anchor-icon:hover {

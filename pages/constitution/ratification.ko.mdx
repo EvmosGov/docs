@@ -1,0 +1,48 @@
+import Bleed from 'nextra-theme-docs/bleed'
+import {  CardGrid, TwitterButton, SaleBanner } from '../../components/Cards'
+import UM_Table, { Irow } from 'react-tailwind-table'
+import SigneeTabs  from '../../components/SigneeTabs'
+import BufferChart  from '../../components/BufferChart'
+import CircularProgressWithLabel  from '../../components/CircleChart'
+import styles from './ratification.module.css'
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import RatificationGrid  from '../../components/FourColGrid'
+
+
+# Evmos DAO Constitution Status
+
+## Proposal & Status
+
+The [Interim Constitution](/constitution) was ratified on the 31st of August, 2022 at 19:21 UTC by the following: 
+
+<RatificationGrid />
+
+<section className={styles.lineContainer}>
+<CircularProgressWithLabel value={33} size={80} color="success" />
+<BufferChart amount={98.55} bufferAmount={98.64} color="success" />
+<CircularProgressWithLabel value={77} size={80} />
+</section>
+
+
+## <p className={styles.founderspage}>The Founding Members of **Evmos DAO**</p>
+
+<Bleed>
+    <SigneeTabs />
+</Bleed>
+
+## Next Steps
+
+The currently adopted version of our Constitution was passed as a temporary placeholder. While the core contents, concepts, and principles will likely remain, there is work to be done in other areas such as definitions, the Community Bill of Rights, formatting, etc.  
+
+### Bill of Rights
+
+WIP
+
+### Validator Code of Conduct
+
+WIP
+
+### Community Code of Conduct
+
+WIP

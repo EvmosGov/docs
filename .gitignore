@@ -11,3 +11,4 @@ validatorsmeta.json
 validators.json
 og.png
 *.code-workspace
+.vscode

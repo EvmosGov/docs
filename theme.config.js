@@ -75,7 +75,7 @@ import Script from 'next/script'
   defaultTheme: "dark",
   forcedTheme: "dark",
   storageKey: "theme",
-  defaultMenuCollapsed: false,
+  defaultMenuCollapsed: true,
   nextThemes: {
     defaultTheme: "dark",
     forcedTheme: "dark",

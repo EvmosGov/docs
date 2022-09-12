@@ -1,5 +1,7 @@
 {
-  "index": "Community Proposals",
-  "definitions": "Core Definitions",
-  "lifecycle": "Proposal Lifecycle"
+  "index": "Framework Overview",
+  "definitions": "Definitions & Concepts",
+  "templates": "Formatting & Templates",
+  "lifecycle": "Proposal Lifecycle",
+  "submission": "Submission Guidelines"
 }

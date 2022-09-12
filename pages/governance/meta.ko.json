@@ -1,5 +1,6 @@
 {
-    "framework": "Governance Processes",
-    "proposals": "Proposal Framework"
-  }
+    "index": "Governance Overview",
+    "proposals": "Proposal Framework",
+    "voting": "Voting and Delegations"
+}
   

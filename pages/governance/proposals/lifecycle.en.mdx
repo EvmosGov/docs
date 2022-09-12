@@ -1,3 +1,61 @@
-# The Proposal Lifecycle
+# The Evmos Community Proposal (ECP) Lifecycle
 
-## WIP
+## **Phase 1**: Discussion & Ideation
+
+The purpose of this phase is to vet ideas with the active Evmos community members. Each idea for a proposal should have its own Commonwealth thread, and discussions should be as narrowly focused as possible. Anyone can participate and is encouraged to provide feedback in this phase of governance. The goal of Phase 1 discussion is to gain a rough community consensus, and refine the idea so that it can be formalized. The thread author should make an effort to address all comments and take them into consideration.
+
+- **Minimum Duration:** 48 hours
+- **Forum Tag:** `[P1]`
+
+## **Phase 2**: ECP Formalization
+
+Phase 2 is where the idea is formalized into an ECP that includes all of the criteria specified in the ECP Template. It must be a clear and complete description of the proposed enhancement. All ECPs must have the following core components, **with additional/varying sections for certain proposal types (refer to the [templates page](/governance/proposals/templates))**:
+
+#### Title
+
+Make sure to include the [correct tags](/governance/proposals/definitions#proposal-phase--identification-tags) in your Commonwealth thread title.
+
+#### Short Summary
+
+A brief, high-level summary of what changes are being suggested. Summary should be a single sentence, or a bulleted list.
+
+#### Abstract
+
+Abstract is a multi-sentence (short paragraph) technical summary. This should be a very terse and human-readable version of the motivation and specification sections. Someone should be able to read only the abstract to get the gist of what this specification does.
+
+#### Motivation
+
+The motivation section should describe the "why" of this proposal. What problem does it solve? What benefit does it provide to the Evmos network? 
+
+#### Specification
+
+The specification section should describe the syntax and semantics of any new feature, or change, at a technical level. 
+
+#### Proposal Type Specific Content
+
+Make sure to double check your proposal type to see what additional information or details are required. **Especially for funding proposals!**
+
+- **Minimum Duration:** 72 hours (3 days)
+- **Forum Tag:** `[P2]`
+
+## **Phase 3**: ECP Signaling (Temperature Check)
+
+At any point during Phase 2, the author may finalize the ECP by initiating a community temperature check. To do this, the author must change the tag of the forum post to `[P3]`, and add a forum poll to gauge the community sentiment.
+
+Proposals should only move to Phase 3 once the author has considered all community comments, responded to all concerns and questions, and believes that the proposal is ready to go on-chain for a final network-wide vote. Proposals in Phase 3 should not be edited further with the exception of minor mistakes. 
+
+Polls must run for a minimum of:
+
+- 7 days for any proposal requesting funding from the treasury or the community pool
+- 5 days for protocol-level incentives, protocol changes (`ParamChange`), community governance proposals
+- 3 days for ERC20 registrations
+
+Note: Polling time can run concurrently with Phase 2. 
+
+**Forum Tag:** `[P3]`
+
+## **Phase 4**: On-Chain Voting
+
+If the signaling polls in Phase 3 show an overall positive sentiment and no major issues are brought up, the proposal may be submitted on-chain for the formal voting. Submission guidelines [are listed here]('/governance/proposals/submission'), and are highly recommended to follow. 
+
+**Forum Tag:** `[P4]`

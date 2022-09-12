@@ -1,11 +1,15 @@
 import Head from 'next/head'
 import Script from 'next/script'
+import remarkFrontmatter from 'remark-frontmatter'
 
  export default {
   projectLink: 'https://github.com/EvmosGov/docs',
   docsRepositoryBase: 'https://github.com/EvmosGov/docs/blob/main',
   github: 'https://github.com/EvmosGov',
   titleSuffix: ' – Evmos DAO',
+  mdxOptions: {
+    remarkPlugins: [remarkFrontmatter]
+  },
   logo: (
     <>
       <img className="inline mr-2" src="/logo-round.svg" />
@@ -20,18 +24,7 @@ import Script from 'next/script'
       <meta name="msapplication-TileColor" content="#1d1f21" />
       <meta name="theme-color" content="#1d1f21" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="description" content="Evmos DAO Governance Documentation. In Interoperability We Trust." />
-      <meta name="og:description" content="Evmos DAO Governance Documentation. In Interoperability We Trust." />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://docs.evmos.vision/card.png" />
-      <meta name="twitter:site:domain" content="docs.evmos.vision" />
-      <meta name="twitter:url" content="https://docs.evmos.vision" />
-      <meta name="og:title" content="Evmos DAO Governance Documentation. In Interoperability We Trust." />
-      <meta name="og:image" content="https://docs.evmos.vision/card.png" />
-      <meta property="og:image" content="https://docs.evmos.vision/card.png" />
-      <meta name="apple-mobile-web-app-title" content="Evmos Docs" />
-      <meta name="image" content="https://docs.evmos.vision/card.png" />
-      <meta itemProp="image" content="https://docs.evmos.vision/card.png" />
+     
       <link
         rel="apple-touch-icon"
         sizes="180x180"

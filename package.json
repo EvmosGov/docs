@@ -19,6 +19,8 @@
     "@mui/x-data-grid": "^5.17.0",
     "@mui/x-date-pickers": "^5.0.0",
     "@next/mdx": "^12.2.5",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
     "jsonpath-plus": "^7.0.0",
     "moment": "^2.29.4",
     "next": "^12.1.0",
@@ -26,7 +28,8 @@
     "nextra-theme-docs": "^1.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-tailwind-table": "^1.1.1"
+    "react-tailwind-table": "^1.1.1",
+    "remark-frontmatter": "^4.0.1"
   },
   "devDependencies": {
     "prettier": "^2.0.5"

@@ -528,6 +528,9 @@ a code {
 .fixed {
     position: fixed
 }
+.sticky {
+    position: sticky
+}
 
 .absolute {
     position: absolute
@@ -669,6 +672,10 @@ a code {
 
 .max-w-screen-md {
     max-width: 768px
+}
+
+.max-w-screen-lg {
+    max-width: 980px
 }
 
 .flex-1 {
@@ -1484,7 +1491,7 @@ pre .prism-code .token.tag:not(.script) {
 
 @media (min-width:1280px) {
     .nextra-container:not(.rtl):not(.page) article.docs-container {
-        padding-right: 18rem
+        padding-right: 1rem
     }
 
     .nextra-container.rtl:not(.page) .docs-container {
@@ -1646,11 +1653,11 @@ pre .prism-code .token.tag:not(.script) {
 
     .md\:-mx-8 {
         margin-left: -2rem;
-        margin-right: -2rem
+        margin-right: -2rem;
     }
 
     .md\:block {
-        display: block
+        display: block;
     }
 
     .md\:inline-block {
@@ -1667,6 +1674,10 @@ pre .prism-code .token.tag:not(.script) {
 
     .md\:w-64 {
         width: 16rem
+    }
+
+    .md\:w-sidebar {
+        width: 20rem
     }
 
     .md\:w-auto {

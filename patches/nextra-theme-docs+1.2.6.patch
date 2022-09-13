@@ -1,0 +1,114 @@
+diff --git a/node_modules/nextra-theme-docs/LICENSE b/node_modules/nextra-theme-docs/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/README.md b/node_modules/nextra-theme-docs/README.md
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/bleed.js b/node_modules/nextra-theme-docs/bleed.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/callout.js b/node_modules/nextra-theme-docs/callout.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/arrow-right.js b/node_modules/nextra-theme-docs/dist/arrow-right.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/bleed.js b/node_modules/nextra-theme-docs/dist/bleed.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/callout.js b/node_modules/nextra-theme-docs/dist/callout.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/footer.js b/node_modules/nextra-theme-docs/dist/footer.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/github-icon.js b/node_modules/nextra-theme-docs/dist/github-icon.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/head.js b/node_modules/nextra-theme-docs/dist/head.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/locale-switch.js b/node_modules/nextra-theme-docs/dist/locale-switch.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/navbar.js b/node_modules/nextra-theme-docs/dist/navbar.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/nextra-theme-docs.js b/node_modules/nextra-theme-docs/dist/nextra-theme-docs.js
+old mode 100644
+new mode 100755
+index fbea45d..0afe9e0
+--- a/node_modules/nextra-theme-docs/dist/nextra-theme-docs.js
++++ b/node_modules/nextra-theme-docs/dist/nextra-theme-docs.js
+@@ -731,7 +731,7 @@ function LocaleSwitch({
+     strokeLinecap: "round",
+     strokeLinejoin: "round",
+     strokeWidth: 2,
+-    d: "M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"
++    d: "M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"
+   }))), mounted ? /*#__PURE__*/React__default.createElement("ul", {
+     className: cn('locale-dropdown absolute block bg-white dark:bg-dark border dark:border-gray-700 py-1 rounded shadow-lg', {
+       'right-0': !isRTL,
+@@ -1450,7 +1450,7 @@ function Sidebar({
+     }
+   }, [menu]);
+   return /*#__PURE__*/React__default.createElement("aside", {
+-    className: cn('fixed h-screen bg-white dark:bg-dark flex-shrink-0 w-full md:w-64 md:sticky z-20', menu ? '' : 'hidden', mdShow ? 'md:block' : ''),
++    className: cn('fixed h-screen bg-white dark:bg-dark flex-shrink-0 w-full md:w-sidebar md:sticky z-20', menu ? '' : 'hidden', mdShow ? 'md:block' : ''),
+     style: {
+       top: '4rem',
+       height: 'calc(100vh - 4rem)'
+@@ -1506,9 +1506,9 @@ function ToC({
+   const slugger = new Slugger();
+   const activeAnchor = useActiveAnchor();
+   return /*#__PURE__*/React__default.createElement("div", {
+-    className: "w-64 hidden xl:block text-sm pl-4"
++    className: "toc hidden md:w-64 md:block xl:block text-sm pl-4"
+   }, titles ? /*#__PURE__*/React__default.createElement("ul", {
+-    className: "overflow-y-auto sticky max-h-[calc(100vh-4rem)] top-16 pt-8 pb-10 m-0 list-none"
++    className: "overflow-y-auto max-h-[calc(100vh-4rem)] top-16 pt-8 pb-10 m-0 list-none"
+   }, titles.filter(item => item.props.mdxType !== 'h1').map(item => {
+     const text = innerText(item.props.children) || '';
+     const slug = slugger.slug(text);
+diff --git a/node_modules/nextra-theme-docs/dist/search.js b/node_modules/nextra-theme-docs/dist/search.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/sidebar.js b/node_modules/nextra-theme-docs/dist/sidebar.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/stork-search.js b/node_modules/nextra-theme-docs/dist/stork-search.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/theme-switch.js b/node_modules/nextra-theme-docs/dist/theme-switch.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/toc.js b/node_modules/nextra-theme-docs/dist/toc.js
+old mode 100644
+new mode 100755
+index a504500..0ee532e
+--- a/node_modules/nextra-theme-docs/dist/toc.js
++++ b/node_modules/nextra-theme-docs/dist/toc.js
+@@ -44,9 +44,9 @@ function ToC({
+   const slugger = new Slugger();
+   const activeAnchor = useActiveAnchor();
+   return /*#__PURE__*/React__default.createElement("div", {
+-    className: "w-64 hidden xl:block text-sm pl-4"
++    className: "toc hidden md:w-64 md:block xl:block text-sm pl-4"
+   }, titles ? /*#__PURE__*/React__default.createElement("ul", {
+-    className: "overflow-y-auto sticky max-h-[calc(100vh-4rem)] top-16 pt-8 pb-10 m-0 list-none"
++    className: "overflow-y-auto max-h-[calc(100vh-4rem)] top-16 pt-8 pb-10 m-0 list-none"
+   }, titles.filter(item => item.props.mdxType !== 'h1').map(item => {
+     const text = innerText(item.props.children) || '';
+     const slug = slugger.slug(text);
+diff --git a/node_modules/nextra-theme-docs/dist/wasm-loader-b9b546ac.js b/node_modules/nextra-theme-docs/dist/wasm-loader-b9b546ac.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/dist/wasm-loader.js b/node_modules/nextra-theme-docs/dist/wasm-loader.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/index.js b/node_modules/nextra-theme-docs/index.js
+old mode 100644
+new mode 100755
+diff --git a/node_modules/nextra-theme-docs/style.css b/node_modules/nextra-theme-docs/style.css
+old mode 100644
+new mode 100755

@@ -278,3 +278,14 @@ article.docs-container {
 a span.inline-block {
   font-size: 0.7rem;
 }
+
+@media (min-width:800px) {
+  .toc{
+    position: absolute !important;
+  }
+  .toc ul{
+    width: inherit !important;
+    position: fixed;
+  }
+}
+

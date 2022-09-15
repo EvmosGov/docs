@@ -1710,20 +1710,7 @@ pre .prism-code .token.tag:not(.script) {
 
 }
 
-@media (min-width:1024px) {
-    .docs-container main {
-        padding-left: inherit;
-    }
 
-}
-@media (min-width:1400px) {
-    .docs-container main {
-        padding-left: 6rem;
-    }
-    .toc{
-        display: block;
-    }
-}
 @media (min-width:1536px) {
     .\32xl\:-mx-24 {
         margin-left: -6rem;
@@ -1734,6 +1721,9 @@ pre .prism-code .token.tag:not(.script) {
     }
     .docs-container main {
         padding-left: inherit;
+    }
+    .toc{
+        display: block;
     }
 
 }

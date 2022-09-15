@@ -1,3 +1,6 @@
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+
 # The Evmos Community Proposal (ECP) Lifecycle
 
 ## **Phase 1**: Discussion & Ideation
@@ -11,29 +14,35 @@ The purpose of this phase is to vet ideas with the active Evmos community member
 
 Phase 2 is where the idea is formalized into an ECP that includes all of the criteria specified in the ECP Template. It must be a clear and complete description of the proposed enhancement. All ECPs must have the following core components, **with additional/varying sections for certain proposal types (refer to the [templates page](/governance/proposals/templates))**:
 
-#### Title
 
-Make sure to include the [correct tags](/governance/proposals/definitions#proposal-phase--identification-tags) in your Commonwealth thread title.
+    <Box sx={{ minWidth: 275, mt: '20px' }}>
+    <Card sx={{ padding: '40px' }}>
 
-#### Short Summary
+<p style={{ fontSize: '1.2rem', marginTop: 0, fontWeight: 700 }}>Title: Keep it short and sweet, and make sure to include the [correct tags](/governance/proposals/definitions#proposal-phase--identification-tags) in your Commonwealth thread title.</p>
+<hr />
+
+<h3>Short Summary</h3>
 
 A brief, high-level summary of what changes are being suggested. Summary should be a single sentence, or a bulleted list.
 
-#### Abstract
+<h4>Abstract</h4>
 
 Abstract is a multi-sentence (short paragraph) technical summary. This should be a very terse and human-readable version of the motivation and specification sections. Someone should be able to read only the abstract to get the gist of what this specification does.
 
-#### Motivation
+<h4>Motivation</h4>
 
-The motivation section should describe the "why" of this proposal. What problem does it solve? What benefit does it provide to the Evmos network? 
+The motivation section should describe the "why" of this proposal. What problem does it solve? What benefit does it provide to the Evmos network?
 
-#### Specification
+<h4>Specification</h4>
 
 The specification section should describe the syntax and semantics of any new feature, or change, at a technical level. 
 
+    </Card>
+    </Box>
+
 #### Proposal Type Specific Content
 
-Make sure to double check your proposal type to see what additional information or details are required. **Especially for funding proposals!**
+Make sure to double check your proposal type to see what [additional information or details are required](/governance/proposals/templates). **Especially for funding proposals!**
 
 - **Minimum Duration:** 72 hours (3 days)
 - **Forum Tag:** `[P2]`

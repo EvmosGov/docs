@@ -1712,13 +1712,13 @@ pre .prism-code .token.tag:not(.script) {
 
 @media (min-width:1024px) {
     .docs-container main {
-        padding-left: unset;
+        padding-left: inherit;
     }
 
 }
 @media (min-width:1400px) {
     .docs-container main {
-        padding-left: 4.5rem;
+        padding-left: 6rem;
     }
     .toc{
         display: block;

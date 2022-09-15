@@ -1675,9 +1675,12 @@ pre .prism-code .token.tag:not(.script) {
     .md\:w-64 {
         width: 16rem
     }
+    .md\:w-64 {
+        width: 16rem
+    }
 
     .md\:w-sidebar {
-        width: 20rem
+        width: 16rem
     }
 
     .md\:w-auto {
@@ -1700,11 +1703,30 @@ pre .prism-code .token.tag:not(.script) {
     .md\:pb-16 {
         padding-bottom: 4rem
     }
+    .docs-container main {
+        padding-left: 4.5rem;
+    }
+    .toc{
+        display: none;
+    }
+
 }
 
+@media (min-width:1400px) {
+    .toc{
+        display: block;
+    }
+}
 @media (min-width:1536px) {
     .\32xl\:-mx-24 {
         margin-left: -6rem;
         margin-right: -6rem
     }
+    .lg\:w-sidebar-lg {
+        width: 20rem
+    }
+    .docs-container main {
+        padding-left: inherit;
+    }
+
 }

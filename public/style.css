@@ -1703,16 +1703,23 @@ pre .prism-code .token.tag:not(.script) {
     .md\:pb-16 {
         padding-bottom: 4rem
     }
-    .docs-container main {
-        padding-left: 4.5rem;
-    }
+
     .toc{
         display: none;
     }
 
 }
 
+@media (min-width:1024px) {
+    .docs-container main {
+        padding-left: unset;
+    }
+
+}
 @media (min-width:1400px) {
+    .docs-container main {
+        padding-left: 4.5rem;
+    }
     .toc{
         display: block;
     }

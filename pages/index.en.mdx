@@ -1,10 +1,18 @@
+import { Card3, CardGrid, TwitterButton } from '../components/Cards'
+import ThreeDRotationIcon from '@mui/icons-material/ThreeDRotation';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import Bleed from 'nextra-theme-docs/bleed'
+import ChatIcon from '@mui/icons-material/Chat';
+import GroupsIcon from '@mui/icons-material/Groups';
+import { Discord, Medium, Telegram } from 'react-bootstrap-icons';
 
 # Evmos DAO & Community Governance
 
-## Introduction to Evmos
+## Evmos Network
 
 **Evmos** is an [EVM-compatible Layer One Network](https://evmos.org) in the Cosmos ecosystem.
+
+Evmos allows for running vanilla Ethereum as a Cosmos application-specific blockchain. This allows developers to have all the desired features of Ethereum, while at the same time, benefit from Tendermint’s PoS implementation. Also, because it is built on top of the Cosmos SDK, it will be able to exchange value with the rest of the Cosmos Ecosystem through the Inter Blockchain Communication Protocol (IBC).
 
 ## Evmos DAO 
 
@@ -14,5 +22,48 @@ The DAO is currently operating under the [Interim Constitution](/constitution), 
 
 The **Evmos Governance Framework** is still a work-in-progress, and will be rolled out in a modular fashion. The Framework, like the Interim Constitution, are likely to change and evolve as the network matures and grows. This document repository will be updated to the best of our ability to remain up-to-date.
 
+## Community Links
 
-<Bleed>![Evmos DAO Governance](../public/hero1.jpg)</Bleed>
+    <CardGrid>
+    <Card3
+        title="Evmos Official"
+        color="#12c6e4"
+        href="https://twitter.com/evmosorg"
+        icon={<TwitterIcon sx={{ verticalAlign: 'middle', marginRight: 0.2, marginBottom: 0.2 }} />}
+
+    />
+    <Card3
+        title="Evmos DAO"
+        color="#12c6e4"
+        href="https://twitter.com/evmosdao"
+        icon={<TwitterIcon sx={{ verticalAlign: 'middle', marginRight: 0.2, marginBottom: 0.2 }} />}
+    />
+    <Card3
+        title="Commonwealth"
+        color="#3a6999"
+        href="https://commonwealth.im/evmos/"
+        icon={<ChatIcon sx={{ verticalAlign: 'middle', marginRight: 0.2, marginBottom: 0.2 }} />}
+    />
+    <Card3
+        title="Official Discord"
+        color="#4e62f0"
+        href="https://discord.gg/evmos"
+        icon={<Discord className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium card3icon" sx={{ verticalAlign: 'middle', marginRight: 0.2, marginBottom: 0.2 }} />}
+    />
+    <Card3
+        title="Official Blog"
+        color="#eb4d32"
+        href="https://medium.com/evmos"
+        icon={<Medium className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium card3icon" sx={{ verticalAlign: 'middle', marginRight: 0.2, marginBottom: 0.2 }} />}
+    />
+    <Card3
+        title="Telegram"
+        color="#289bd3"
+        href="https://t.me/EvmosOrg"
+        icon={<Telegram className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium card3icon" sx={{ verticalAlign: 'middle', marginRight: 0.2, marginBottom: 0.2 }} />}
+    />
+    </CardGrid>
+
+---
+
+![Evmos DAO Governance](../public/hero1.jpg)

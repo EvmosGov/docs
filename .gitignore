@@ -12,3 +12,4 @@ validators.json
 og.png
 *.code-workspace
 .vscode
+wget-log

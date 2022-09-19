@@ -201,10 +201,23 @@ input.text-xs.py-2.h-10.px-4.pl-6.w-52.md\:w-auto.focus\:outline-none.leading-9.
   text-align: center;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
-
+.Card3 {
+  display: block;
+  border-radius: 3px;
+  margin:0.5rem;
+  line-height: 4rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  flex-basis: 31%;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
 .CardGrid {
   display: flex;
   flex-wrap: wrap;
+  margin: 1rem -0.5rem;
 }
 
 p.MuiTablePagination-displayedRows {
@@ -239,7 +252,13 @@ p.MuiTablePagination-displayedRows {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
   background-color: rgb(57, 57, 57);
 }
-
+.card3icon{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.5rem;
+  margin: 0.2rem;
+  padding-bottom: 2px;
+}
 .page-num{
   padding-left: 10px;
   padding-right: 10px;

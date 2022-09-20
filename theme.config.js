@@ -1,11 +1,15 @@
 import Head from 'next/head'
 import Script from 'next/script'
+import collapse from 'remark-collapse'
 
  export default {
   projectLink: 'https://github.com/EvmosGov/docs',
   docsRepositoryBase: 'https://github.com/EvmosGov/docs/blob/main',
   github: 'https://github.com/EvmosGov',
   titleSuffix: ' – Evmos DAO',
+  mdxOptions: {
+    remarkPlugins: [collapse]
+  },
   logo: (
     <>
       <img className="inline mr-2" src="/logo-round.svg" />

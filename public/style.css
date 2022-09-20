@@ -504,8 +504,7 @@ pre {
 }
 
 .dark pre {
-    --tw-bg-opacity: 1;
-    background-color: rgba(45, 55, 72, var(--tw-bg-opacity))
+    background-color: rgb(51 51 51 / 85%);
 }
 
 pre code {
@@ -897,6 +896,10 @@ a code {
 
 .font-semibold {
     font-weight: 600
+}
+
+.font-bold {
+    font-weight: 700
 }
 
 .font-extrabold {
@@ -1417,7 +1420,7 @@ pre .prism-code {
 }
 
 .dark pre .prism-code {
-    --c-highlight: #3d4b61
+    --c-highlight: #686868
 }
 
 pre .prism-code .token.builtin,
@@ -1443,7 +1446,7 @@ pre .prism-code .token.url {
 .dark pre .prism-code .token.attr-value,
 .dark pre .prism-code .token.string,
 .dark pre .prism-code .token.url {
-    color: #20bb98 !important
+    color: #d9624f !important
 }
 
 pre .prism-code .token.operator,

@@ -344,3 +344,6 @@ a span.inline-block {
   font-weight: 500;
   font-family: Inter;
 }
+.bg-orange-100.callout {
+  background-color: #5a5a5a70 !important;
+}

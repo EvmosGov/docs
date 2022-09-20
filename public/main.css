@@ -347,3 +347,12 @@ a span.inline-block {
 .bg-orange-100.callout {
   background-color: #5a5a5a70 !important;
 }
+
+.docs-container details{
+  margin-top: 1.6rem;
+  cursor: pointer;
+}
+
+.docs-container summary h3, .docs-container summary h2, .docs-container summary h4, .docs-container summary p {
+  display: inline;
+}

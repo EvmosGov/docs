@@ -3,13 +3,11 @@ import Card from '@mui/material/Card';
 import ContentTimeline from '../../../components/ProposalSteps';
 import Bleed from 'nextra-theme-docs/bleed'
 
-# The Evmos Community Proposal (ECP) Lifecycle
+# The Evmos Community Proposal Lifecycle
 
-    <Bleed>
-    <Box sx={{ minWidth: 275, mt: 4, padding: 0 }}>
-    <ContentTimeline />
+    <Box sx={{ minWidth: 275, mt: 6, padding: 0, pt: 1 }}>
+    <ContentTimeline step={4} />
     </Box>
-    </Bleed>
 
 
 ## **Phase 1**: Discussion & Ideation
@@ -27,34 +25,28 @@ Phase 2 is where the idea is formalized into an ECP that includes all of the cri
     <Box sx={{ minWidth: 275, mt: '20px' }}>
     <Card sx={{ padding: '40px' }}>
 
-<p style={{ fontSize: '1.2rem', marginTop: 0, fontWeight: 700 }}>Title: Keep it short and sweet, and make sure to include the [correct tags](/governance/proposals/definitions#proposal-phase--identification-tags) in your Commonwealth thread title.</p>
+<p style={{ fontSize: '1.2rem', marginTop: 0, fontWeight: 600 }}>Title: Short and sweet, with the [correct tags](/governance/proposals/definitions#proposal-phase--identification-tags) prefixed.</p>
 <hr />
 
-<h3>Short Summary</h3>
+**Summary** - A brief, high-level summary of what changes are being suggested. Summary should be a single sentence, or a bulleted list.
 
-A brief, high-level summary of what changes are being suggested. Summary should be a single sentence, or a bulleted list.
+**Authors** - List of authors and contributors involved in the writing of the proposal.
 
-<h4>Abstract</h4>
+**Abstract** - Abstract is a multi-sentence (short paragraph) technical summary. This should be a very terse and human-readable version of the motivation and specification sections. Someone should be able to read only the abstract to get the gist of what this specification does.
 
-Abstract is a multi-sentence (short paragraph) technical summary. This should be a very terse and human-readable version of the motivation and specification sections. Someone should be able to read only the abstract to get the gist of what this specification does.
-
-<h4>Motivation</h4>
-
-The motivation section should describe the "why" of this proposal. What problem does it solve? What benefit does it provide to the Evmos network?
-
-<h4>Specification</h4>
-
-The specification section should describe the syntax and semantics of any new feature, or change, at a technical level. 
-
-    </Card>
-    </Box>
+**Motivation** - The motivation section should describe the "why" of this proposal. What problem does it solve? What benefit does it provide to the Evmos network?
 
 **Proposal Type Specific Content**
 
 Make sure to double check your proposal type to see what [additional information or details are required](/governance/proposals/templates). **Especially for funding proposals!**
 
+    </Card>
+    </Box>
+
+
 - **Minimum Duration:** 72 hours (3 days)
 - **Forum Tag:** `[P2]`
+
 
 ## **Phase 3**: ECP Signaling (Temperature Check)
 
@@ -72,8 +64,20 @@ Note: Polling time can run concurrently with Phase 2.
 
 **Forum Tag:** `[P3]`
 
+
 ## **Phase 4**: On-Chain Voting
 
-If the signaling polls in Phase 3 show an overall positive sentiment and no major issues are brought up, the proposal may be submitted on-chain for the formal voting. Submission guidelines [are listed here](/governance/proposals/submission), and are highly recommended to follow. 
+If the signaling polls in Phase 3 show an overall positive sentiment and no major issues are brought up, the proposal may be submitted on-chain for the formal voting. Submission guidelines [are listed here](/governance/proposals/submission).
 
-**Forum Tag:** `[P4]`
+**Forum Tag (Depending on Outcome):** `[PASSED]`, `[REJECTED]`, `[VETO]`
+
+## Other ECP Statuses
+
+- **Withdrawn:** Assigned when a member withdraws their proposal, or if the proposal is abandoned with no activity. **Forum Tag:** `[WITHDRAWN]`
+- **Deferred:** Assigned when a proposal has been deemed as not ready or not a priority but can be re-proposed at a later date. This status can be assigned during Phase 3 with a failed forum poll or signaling. **Forum Tag:** `[DEFER]`
+
+## Assistance & Review
+
+All proposers are welcome to approach the Governance Workstream for assistance in any part of the Proposal Lifecycle. In addition, proposers may request a formal review of the proposal before going on chain.
+
+

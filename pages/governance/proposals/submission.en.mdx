@@ -6,6 +6,30 @@ import Callout from 'nextra-theme-docs/callout'
 
 Many proposals allow for long form text to be included, usually under the key `description`. These provide the opportunity to include [markdown](https://www.markdownguide.org/) if formatted correctly as well as line breaks with `\n`. Beware, however, that if you are using the CLI to create a proposal, and setting `description` using a flag, the text will be [escaped](https://en.wikipedia.org/wiki/Escape_sequences_in_C) which may have undesired effects. If you're using markdown or line breaks it's recommended to put the proposal text into a json file and include that file as part of the CLI proposal, as opposed to individual fields in flags.
 
+### Attaching Metadata
+
+**YAML Frontmatter**
+
+Although not a technical requirement, it is highly recommended that you upload your complete proposal onto IPFS with the following metadata at the very beginning. For more information on YAML frontmatter, refer to [this documentation.](https://assemble.io/docs/YAML-front-matter.html)
+
+```yaml
+
+---
+title: Launching the Evmos Liquidity Incentives Program
+authors: Tricky, Benny Lava, LPX
+proposal: ECP-PS-1
+type: CommunityPoolSpend
+funding_amt: 2000000
+discussion: https://commonwealth.im/evmos/discussion/6977-prevote-kickstart-defi-on-evmos
+polls: https://bafybeieyr4vsc3gubivurtvvuunhmkl3uqvsuv3zuag34gnh3xzgdyzcpe.ipfs.w3s.link/polls.json
+govreviewed: true
+created_at: 2022-09-17T19:14:49.280Z
+
+---
+
+```
+
+At the end of the on-chain proposal, provide the IPFS hash or IPNS link to the proposal with the metadata with a simple `IPFS: <hash or link>` at the end. This data will be used in the future for indexing and analysis purposes for off-chain governance.
 
 ### Text Proposals
 
@@ -55,6 +79,9 @@ The `deposit` of `64000000000000000000aevmos` results in 64 EVMOS being used fro
 
 
 ```json
+
+// JSON PROPOSAL PAYLOAD
+
 {
   "title": "Community Pool Spend",
   "description": "This is the summary of the key information about this proposal. Include the URL to a PDF version of your full proposal.",
@@ -102,7 +129,6 @@ Users can query the proposal details with the evmosd command-line interface usin
 `evmosd --node https://tendermint.bd.evmos.org:26657 query gov proposal 7`
 
 ```json
-// JSON PAYLOAD
 {
   "title": "Increase the minimum deposit for governance proposals",
   "description": "If successful, this parameter-change governance proposal will change the minimum deposit for future proposals from 10 evmos tokens to 64.",

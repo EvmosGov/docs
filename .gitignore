@@ -13,3 +13,4 @@ og.png
 *.code-workspace
 .vscode
 wget-log
+out

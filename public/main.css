@@ -356,3 +356,28 @@ a span.inline-block {
 .docs-container summary h3, .docs-container summary h2, .docs-container summary h4, .docs-container summary p {
   display: inline;
 }
+
+.sidebar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 0px;
+	background-color: rgb(141, 141, 141);
+}
+
+.sidebar::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: rgb(141, 141, 141);
+}
+.sidebar::-webkit-scrollbar-thumb
+{
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.slideframe{
+  width: 100%;
+  aspect-ratio: 8 / 5;
+  margin-top: 2rem;
+}

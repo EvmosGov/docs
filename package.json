@@ -23,6 +23,7 @@
     "jsonpath-plus": "^7.0.0",
     "moment": "^2.29.4",
     "next": "^12.1.0",
+    "next-axiom": "^0.14.0",
     "nextra": "^1.1.0",
     "nextra-theme-docs": "^1.2.6",
     "patch-package": "^6.4.7",

@@ -3,12 +3,12 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.js',
   unstable_staticImage: true,
   forcedTheme: 'dark',
-
 })
-module.exports = withNextra({
+const { withAxiom } = require('next-axiom');
+module.exports = withAxiom(withNextra({
   i18n: {
     locales: ['en', 'ko'],
     defaultLocale: 'en',
   }
-})
+}))
 

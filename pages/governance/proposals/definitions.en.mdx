@@ -69,24 +69,18 @@ Special Initiatives and Projects are DAO-funded projects with a set budget and "
 
 ---
 
-### Community Incentives Proposals
-
-Proposals for DAO-funded Incentive Programs. **Not to be confused with Foundation Grants, or Community Pool Funding.** (i.e. Liquidity Bootstrapping Program - more details to come.)
-
----
-
 ### Protocol Incentives + Evmos Specific Proposals
 
 | Module         | Codebase     | Parameters                                        | Description                                     |  
 | -------------- | ------------ | --------------------------------------------------------------------------------- | ----------------|
-| `feesplit`     | `evmos`      | `EnableFeeSplit` `DeveloperShares` `AddrDerivationCostCreate` |[reference](https://docs.evmos.org/modules/feesplit/07_parameters.html)     | 
+| `revenue`     | `evmos`      | `EnableFeeSplit` `DeveloperShares` `AddrDerivationCostCreate` |[reference](https://docs.evmos.org/modules/feesplit/07_parameters.html)     | 
 | `incentives`   | `evmos`      | `EnableIncentives` `AllocationLimit` `IncentivesEpochIdentifier` `rewardScaler`  |[reference](https://docs.evmos.org/modules/incentives/07_parameters.html)     | 
 | `erc20`        | `evmos`      | `register_coin` `register_erc20`  |[reference](https://docs.evmos.org/modules/erc20/07_parameters.html)      | 
 | `evm`        | `evmos`      | `ExtraEIPs` `ChainConfig`  |[reference](https://docs.evmos.org/modules/evm/08_params.html)      | 
 
 ---
 
-### Emergency & Network Upgrades 
+### Network Upgrades & Security
 
 | Module         | Codebase     | Parameters                                        | Description                                     |  
 | -------------- | ------------ | --------------------------------------------------------------------------------- | ----------------|
@@ -110,11 +104,6 @@ Proposal Phases are denoted as: `[IDEATION]`, `[PRE-PROPOSAL]`, `[PROPOSAL]`, `[
 Proposal Identification Tags are only required for Governance, Workstream (subDAO), and Community Treasury Related Proposals Only
 </Callout>
 
-The following proposal identification tags do not have to be in the title. A Governance Council member will attach one when the proposal is formalized in `Phase 2: ECP Formalization`. 
+The `ECP-#` tag will be assigned and added by a Governance Council member in the `Phase 2: ECP Formalization` or `Phase 3: ECP Signaling` phase. **You do not have to worry about adding in the tag yourself.**
 
 These tags are for internal tracking and organization purposes. Make sure to check the [Proposal Submission Guidelines](/governance/proposals/submission) for more information on how to properly prepare your proposal for on-chain voting.
-
-- **Governance Proposals**: `[#-ECP]`
-- **Workstreams Related Proposals**: `[#-ECP-WS]`
-- **Community Pool Spend**: `[#-ECP-PS]`
-

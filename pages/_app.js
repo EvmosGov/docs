@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 export { reportWebVitals } from 'next-axiom';
+import { Analytics } from '@vercel/analytics/react';
 
 const darkTheme = createTheme({
   palette: {
@@ -39,6 +40,7 @@ export default function Nextra({ Component, pageProps }) {
         <CssBaseline />
         <Component {...pageProps} 
         />
+        <Analytics />
       </ThemeProvider>
 )
 }

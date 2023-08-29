@@ -9,6 +9,9 @@ module.exports = withAxiom(withNextra({
   i18n: {
     locales: ['en', 'ko'],
     defaultLocale: 'en',
-  }
+  },
+  experimental: {
+    nextScriptWorkers: true,
+  },
 }))
 

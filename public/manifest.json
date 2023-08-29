@@ -39,7 +39,8 @@
       {
         "src": "/android-icon-192x192.png",
         "type": "image/png",
-        "sizes": "192x192"
+        "sizes": "192x192",
+        "purpose": "any"
       },
       {
         "src": "/favicon-32x32.png",
@@ -63,6 +64,12 @@
         "src": "/favicon.ico",
         "type": "image/png",
         "sizes": "128x128"
+      },
+      {
+        "src": "/icons/manifest-icon-512.maskable.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
       }
     ],
     "shortcuts": [
@@ -84,5 +91,8 @@
     ],
     "edge_side_panel": {
       "preferred_width": 680
+    },
+    "launch_handler": {
+        "client_mode": ["navigate-existing, auto"]
     }
   }

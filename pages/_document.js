@@ -24,6 +24,11 @@ export default function Document() {
           }`,
         }}
       />
+      <script>
+        if (typeof navigator.serviceWorker !== 'undefined') {
+          navigator.serviceWorker.register('offline-sw.js')
+        }
+      </script>
       </body>
     </Html>
   )

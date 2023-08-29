@@ -24,8 +24,7 @@ export default function Document() {
           }`,
         }}
       />
-      <Script src="/offline-sw.js" strategy="worker" />
-
+      <Script src="/sw.js" strategy="worker" />
       </body>
     </Html>
   )

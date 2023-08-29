@@ -37,17 +37,6 @@ import collapse from 'remark-collapse'
       <meta name="image" content="https://docs.evmos.vision/card.png" />
       <meta itemProp="image" content="https://docs.evmos.vision/card.png" />
       <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="/apple-icon.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="192x192"
-        href="/android-icon-192x192.png"
-      />
-      <link
         rel="icon"
         type="image/png"
         sizes="32x32"
